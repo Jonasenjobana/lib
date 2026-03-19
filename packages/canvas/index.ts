@@ -1,0 +1,1 @@
+export { JoJoScene } from "./core";
