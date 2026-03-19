@@ -11,9 +11,9 @@
     "type-check": "vue-tsc --build"
   },
   "dependencies": {
-    "@jonasenjobana/util": "workspace:*",
-    "@jonasenjobana/canvas": "workspace:*",
-    "@jonasenjobana/ui": "workspace:*",
+    "@llin03/util": "workspace:*",
+    "@llin03/canvas": "workspace:*",
+    "@llin03/ui": "workspace:*",
     "pinia": "^3.0.4",
     "vue": "^3.5.29",
     "vue-router": "^5.0.3"

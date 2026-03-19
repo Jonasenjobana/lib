@@ -1,1 +1,2 @@
-export { default as UIButton } from './index.vue'
+import UIButton from './index.vue'
+export type UIButtonInstance = InstanceType<typeof UIButton>

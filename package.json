@@ -1,14 +1,30 @@
 {
-  "name": "@jonasenjobana/allpackages",
+  "name": "@llin03/allpackages",
   "version": "1.0.0",
   "description": "",
   "private": true,
-  "scripts": {},
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "clean": "lerna clean",
+    "list": "lerna list",
+    "version": "lerna version",
+    "version:patch": "lerna version patch --conventional-commits",
+    "version:minor": "lerna version minor --conventional-commits",
+    "version:major": "lerna version major --conventional-commits",
+    "publish": "lerna publish",
+    "run": "lerna run"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "packageManager": "pnpm@10.28.2",
   "devDependencies": {
+    "lerna": "^8.1.9",
     "typescript": "^5.9.3"
-  }
+  },
+  "workspaces": [
+    "packages/*",
+    "ui",
+    "playgroud"
+  ]
 }
