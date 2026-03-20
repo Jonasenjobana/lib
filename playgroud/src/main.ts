@@ -1,6 +1,6 @@
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
-import { UIButton } from '@jonasenjobana/ui'
+import { UIButton } from '@llin03/ui'
 import App from './App.vue'
 import router from './router'
 

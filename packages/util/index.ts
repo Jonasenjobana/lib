@@ -1,3 +1,25 @@
-import { add } from './common/array';
-
-export { add };
+export {
+  u_arrLoop,
+  u_arrGroup,
+  u_arrClear,
+  u_arrCopy,
+  u_arrIsArray,
+  u_arrIsStr,
+  u_arrNotNone,
+  u_arrEvery,
+  u_arrSome,
+  u_arrFind,
+  u_arrItemDel,
+  u_arrItemDelRepet,
+  u_arrItemToggle,
+  u_arrAddItemsIndex,
+  u_arrSetItemValue,
+  u_arrSetItemByValue,
+  u_arrGetLast,
+  u_arrGetAllItems,
+  u_arrGetItemsByValue,
+  u_arrGetItemByValue,
+  u_arrGetTopByValue,
+  u_arrGetTopsByValue,
+  u_arrSetKey
+} from './common/array'
